@@ -1,8 +1,8 @@
- # Project Name: Hello Velisa Africa Academy!
+ # Project Name: Responsive restaurant webpage.
 
 # Description
 
- Creating a resturant webpage.
+ Creating a restaurant webpage.
 
 ## Built With
 
@@ -17,9 +17,13 @@
 - Install Git.
 - Install Vs code or any text editor.
 
-👤 **Author1**
 
+ 👤 **Author1**
+
+ **Muhammed Singh**
  
+- Github: [ @Suniel-Dev](https://github.com/Suniel-Dev) 
+- Instagram: [@_ssj7._](https://www.instagram.com/_ssj7._/) 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
