@@ -10,7 +10,7 @@ body {
   background-image: linear-gradient(to right, #f92500, #f8e7e7, #0075b7);
 }
 
-nav {
+.nav-bar {
   margin: 30px 50px;
   display: flex;
   justify-content: space-evenly;
@@ -64,10 +64,10 @@ h1 {
   background-image: linear-gradient(to right, #bb3e00, #f7ad45);
   text-align: center;
   font-size: xx-large;
-  background-color: tan;
   grid-row: auto auto auto;
   padding: 30px;
   font-family: "Shantell Sans", cursive;
+  color: white;
 }
 
 .container2 {
@@ -89,9 +89,14 @@ h1 {
   background-color: white;
   margin: 20px 20px;
 }
-
+.img1 {
+  background-image: url(./images/saundarya-srinivasan-60nzTP7_hMQ-unsplash.jpg);
+  background-size: cover;
+}
 .img2 {
   order: 3;
+  background-image: url(./images/masimo-grabar-NzHRSLhc6Cs-unsplash.jpg);
+  background-size: cover;
 }
 
 .hero {
@@ -143,4 +148,34 @@ h3 {
 .after {
   background-image: linear-gradient(to right, #f7ad45, #0075b7);
   margin: 35px;
+}
+
+@media (max-width: 500px) {
+  .grid-item1 {
+    font-size: 20px;
+    line-height: 30px;
+    background-position: center;
+    padding: 30px;
+  }
+
+  .grid-item2 {
+    font-size: 20px;
+  }
+
+  .container2 {
+    display: block;
+  }
+
+  .container3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero {
+    order: 2;
+  }
+
+  .grid2 {
+    grid-template-columns: auto auto auto;
+  }
 }
