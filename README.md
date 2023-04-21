@@ -1,2 +1,2 @@
-# returant-page
-Creating a returant webpage
+# restaurant-page
+Creating a restaurant webpage
