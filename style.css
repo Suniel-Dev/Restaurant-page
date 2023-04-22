@@ -93,6 +93,7 @@ h1 {
 .img1 {
   background-image: url(./images/saundarya-srinivasan-60nzTP7_hMQ-unsplash.jpg);
   background-size: cover;
+  background-position: center;
   width: 40%;
   height: auto;
 }
@@ -101,6 +102,8 @@ h1 {
   order: 3;
   background-image: url(./images/masimo-grabar-NzHRSLhc6Cs-unsplash.jpg);
   background-size: cover;
+  background-position: center;
+  width: 40%;
   width: 40%;
   height: auto;
 }
