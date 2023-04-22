@@ -11,6 +11,9 @@
 
 ## Getting Started
 
+
+## Live view
+[Live view](https://serene-sherbet-eadd58.netlify.app/)
  
 ## Prerequisite
 
