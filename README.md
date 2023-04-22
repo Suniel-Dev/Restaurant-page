@@ -1,8 +1,8 @@
- # Project Name: Responsive restaurant webpage.
+ # Project Name: Restaurant webpage for Luigi's Pizzeria.
 
 # Description
 
- Creating a restaurant webpage.
+ Creating a responsive restaurant webpage.
 
 ## Built With
 
