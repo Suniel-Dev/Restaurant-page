@@ -89,12 +89,14 @@ h1 {
   background-color: white;
   margin: 20px 20px;
 }
+
 .img1 {
   background-image: url(./images/saundarya-srinivasan-60nzTP7_hMQ-unsplash.jpg);
   background-size: cover;
   width: 40%;
   height: auto;
 }
+
 .img2 {
   order: 3;
   background-image: url(./images/masimo-grabar-NzHRSLhc6Cs-unsplash.jpg);
@@ -218,6 +220,7 @@ h3 {
     display: flex;
     flex-direction: column;
   }
+  
   .img1 {
     background-position: center;
     width: 100%;
