@@ -12,10 +12,13 @@ body {
 
 .nav-bar {
   margin: 30px 50px;
-  /*   display: flex;
-  justify-content: space-evenly; */
+  display: flex;
+  justify-content: space-evenly;
   font-size: xx-large;
   font-family: "Shantell Sans", cursive;
+  background-image: linear-gradient(to right, #bb3e00, #f7ad45);
+  border-radius: 20px;
+  padding: 12px 15px;
 }
 
 a {
@@ -28,12 +31,6 @@ p {
 
 h1 {
   font-family: "Gloock", serif;
-}
-
-.span1 {
-  background-image: linear-gradient(to right, #bb3e00, #f7ad45);
-  padding: 13px 10px;
-  border-radius: 8px;
 }
 
 .container1 {
@@ -207,7 +204,7 @@ h3 {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
   .grid-item1 {
     font-size: 20px;
     line-height: 30px;
@@ -237,10 +234,16 @@ h3 {
     height: 400px;
   }
 
+  .container0 {
+    margin-top: 20px;
+  }
+
   .nav:before {
-    content: "Menu";
+    content: "☰ Menu";
     color: white;
     background: transparent;
+    font-family: "Gloock", serif;
+    margin: 30px;
   }
 
   .nav:focus {
@@ -254,9 +257,8 @@ h3 {
 
   .nav-bar {
     background-image: linear-gradient(to right, #bb3e00, #f7ad45);
-    position: absolute;
+    position: fixed;
     opacity: 0;
-    box-sizing: inherit;
     border-radius: 20px;
   }
 
@@ -265,7 +267,7 @@ h3 {
     color: white;
     font-size: 20px;
     font-family: "Shantell Sans", cursive;
-    margin: 0 15px;
+    margin: 0px 15px;
     display: flex;
     flex-direction: column;
   }
