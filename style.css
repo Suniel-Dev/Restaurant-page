@@ -170,10 +170,16 @@ h3 {
     line-height: 30px;
     background-position: center;
     padding: 30px;
+    margin: 0 auto;
   }
 
   .grid-item2 {
     font-size: 20px;
+    margin: 15px auto;
+  }
+
+  .grid1 {
+    display: block;
   }
 
   .container2 {
