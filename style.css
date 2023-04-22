@@ -151,6 +151,11 @@ h3 {
 }
 
 @media (max-width: 500px) {
+  .nav-bar {
+    font-size: small;
+    font-family: "Shantell Sans", cursive;
+  }
+
   .grid-item1 {
     font-size: 20px;
     line-height: 30px;
