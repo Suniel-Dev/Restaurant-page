@@ -101,7 +101,6 @@ h1 {
   background-size: cover;
   background-position: center;
   width: 40%;
-  width: 40%;
   height: auto;
 }
 
@@ -239,7 +238,7 @@ h3 {
   }
 
   .nav:before {
-    content: "☰ Menu";
+    content: "Menu";
     color: white;
     background: transparent;
     font-family: "Gloock", serif;
@@ -248,11 +247,6 @@ h3 {
 
   .nav:focus {
     pointer-events: none;
-  }
-
-  .nav:focus .nav-bar {
-    opacity: 1;
-    visibility: visible;
   }
 
   .nav-bar {
@@ -264,12 +258,16 @@ h3 {
     flex-direction: column;
   }
 
+  .nav:focus .nav-bar {
+    opacity: 1;
+    visibility: visible;
+  }
+
   .nav-bar a {
     background: transparent;
     color: white;
     font-size: 20px;
     font-family: "Shantell Sans", cursive;
-    margin: 0px 15px;
   }
 
   .span1 {
