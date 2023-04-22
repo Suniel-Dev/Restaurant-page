@@ -184,3 +184,17 @@ h3 {
     grid-template-columns: auto auto auto;
   }
 }
+
+@media (max-width: 1200px) {
+  .grid-item1 {
+    font-size: 20px;
+    line-height: 30px;
+    background-position: center;
+    padding: 30px;
+  }
+
+  .container2 {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
