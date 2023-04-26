@@ -245,10 +245,6 @@ h3 {
     margin: 30px;
   }
 
-  .nav:focus {
-    pointer-events: none;
-  }
-
   .nav-bar {
     background-image: linear-gradient(to right, #bb3e00, #f7ad45);
     position: fixed;
@@ -256,6 +252,7 @@ h3 {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    visibility: hidden;
   }
 
   .nav:focus .nav-bar {
